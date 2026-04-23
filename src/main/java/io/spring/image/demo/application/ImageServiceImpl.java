@@ -12,9 +12,14 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 public class ImageServiceImpl implements ImageService {
 
-    private ImageRepository repository;
+    private final ImageRepository repository;
 
     @Override
     @Transactional
-    public Image save(Image image) {return null;}
+    public Image save(Image image) {
+
+        return repository.save(image);
+
+    }
+
 }

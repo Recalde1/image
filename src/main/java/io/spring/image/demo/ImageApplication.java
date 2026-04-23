@@ -3,7 +3,6 @@ package io.spring.image.demo;
 import io.spring.image.demo.domain.entity.Image;
 import io.spring.image.demo.domain.enums.ImageExtension;
 import io.spring.image.demo.infra.repository.ImageRepository;
-import org.aspectj.apache.bcel.Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
